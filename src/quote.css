@@ -1,0 +1,35 @@
+.quote-container {
+  display: block;
+}
+.quote {
+  display: inline-block;
+  justify-content: center;
+  align-items: end;
+  padding: 20px;
+  margin: 52px;
+  margin-top: 0px;
+
+  border-radius: 20px;
+  background-color: rgb(211, 233, 240);
+}
+.quote-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+.quote-author {
+  margin-top: 20px;
+  padding: 10px;
+}
+.new-quote-button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  background-color: lightcyan;
+  margin-top: 30px;
+  margin-left: 600px;
+  transition: background-color 0.3s ease;
+}
+.new-quote-button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
