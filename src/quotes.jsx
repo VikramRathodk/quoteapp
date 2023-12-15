@@ -21,7 +21,7 @@ function Quotes() {
   }
   return (
     <div className="quote-container">
-        <h3 style={{textAlign: "center" , fontSize: "30px"}}>Motivation Quotes</h3>
+        <h3 style={{textAlign: "center" , fontSize: "30px"}}>Motivational Quotes</h3>
       {quotes.map((quote, index) => (
         <div className="quote" key={index}>
           <div className="quote-text">{quote.content}</div>
